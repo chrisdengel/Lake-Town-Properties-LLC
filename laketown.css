@@ -1,3 +1,15 @@
+header {
+   background-image: url("img/laketown.jpg");
+   background-color: transparent;
+   background-size: cover;
+   height: 500px;
+   width: 100%;
+    }
+.main-nav {
+font-size: 22px;
+display: inline-block;
+
+}
 
 body {
     margin:
@@ -6,19 +18,10 @@ body {
     color: blue;
 
 }
-
-header {
-   background-image: url("img/laketown.jpg");
-   background-color: transparent;
-   background-size: cover;
-   height: 500px;
-   width: 100%;
-    }
-
     h1 {
         margin-top: 0;
         font-size: 72px;
-        color: black;
+        color: white;
     }
 
     p {
