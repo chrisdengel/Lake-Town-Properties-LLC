@@ -1,13 +1,21 @@
 header {
-   background-image: url("img/laketown.jpg");
+   background-image: url("img/tanglewood.jpg");
    background-color: transparent;
    background-size: cover;
    height: 500px;
    width: 100%;
     }
-.main-nav {
+.main-header {
+}
+
+.main-nav li{
 font-size: 22px;
 display: inline-block;
+text-align: center;
+background: green;
+margin-top: 6px;
+margin-bottom: 6px;
+
 
 }
 
@@ -52,11 +60,7 @@ footer {
         magrin: 0 auto;
 
       }
-.main-header {
-    background: greenyellow
-    padding: 1em 0
 
-}
 
 /*======================================================================================================= 
 Media Querries
@@ -69,6 +73,12 @@ Media Querries
     min-height: calc(100vh - 89px);
 
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 }
 
